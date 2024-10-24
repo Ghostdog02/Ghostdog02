@@ -31,7 +31,7 @@
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> 
     </a> 
     <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer"> 
-        <img src="[https://www.google.com/url?sa=i&url=https%3A%2F%2Felest.io%2Fopen-source%2Fmssql&psig=AOvVaw1T7iwAjkMsF-ix4OUW7JDo&ust=1729876130381000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCODq44PBp4kDFQAAAAAdAAAAABAE](https://www.google.com/url?sa=i&url=https%3A%2F%2Fairbyte.com%2Fconnectors%2Fmssql-sql-server&psig=AOvVaw22SJa-l4e7TFURmIhXHLIp&ust=1729879758834000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMiRnLbOp4kDFQAAAAAdAAAAABAE)" alt="mssql" width="40" height="40"/> 
+        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fairbyte.com%2Fconnectors%2Fmssql-sql-server&psig=AOvVaw22SJa-l4e7TFURmIhXHLIp&ust=1729879758834000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMiRnLbOp4kDFQAAAAAdAAAAABAE" alt="mssql" width="40" height="40"/> 
     </a> 
 </p>
 
