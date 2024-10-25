@@ -25,23 +25,28 @@
     <a href="https://angular.io" target="_blank" rel="noreferrer"> 
         <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="angular" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/> 
     </a> 
+    &nbsp
     <a href="https://cloud.google.com" target="_blank" rel="noreferrer"> 
         <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="gcp" width="40" height="40"/> 
     </a> 
+    &nbsp
     <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> 
         <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> 
     </a> 
+    &nbsp
     <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> 
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> 
     </a> 
+    &nbsp
     <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer"> 
         <img src="https://assets-global.website-files.com/6064b31ff49a2d31e0493af1/63a5752c581f4d6558272fef_mssql.svg" alt="mssql" width="40" height="40"/> 
     </a> 
+    &nbsp
 </p>
 &nbsp
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Ghostdog02&theme=dark&show_icons=true&hide_border=true&count_private=true)
-
+&nbsp
 ![GitHub Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=Ghostdog02&theme=dark&show_icons=true&hide_border=true&layout=compact)
-
+&nbsp
 ![GitHub Stats](https://github-readme-streak-stats.herokuapp.com/?user=Ghostdog02&theme=dark&hide_border=true)
