@@ -15,7 +15,7 @@
         <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="alexandervesely" height="30" width="40" />
     </a>
 </p>
-<hr>
+&nbsp
 
 <h3 align="left">Languages and Tools:</h3>
 <p align="left"> 
@@ -35,7 +35,7 @@
         <img src="https://assets-global.website-files.com/6064b31ff49a2d31e0493af1/63a5752c581f4d6558272fef_mssql.svg" alt="mssql" width="40" height="40"/> 
     </a> 
 </p>
-<hr>
+&nbsp
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Ghostdog02&theme=dark&show_icons=true&hide_border=true&count_private=true)
 
