@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Alexander Vesely</h1>
-<h3 align="center">Always eager to expand my knowledge and take on new challenges.</h3>
+<h2 align="center">Always eager to expand my knowledge and take on new challenges.</h2>
 
 - 🌱 I’m currently learning **C#, MSSQL, MVC.**
 
@@ -34,3 +34,9 @@
         <img src="https://assets-global.website-files.com/6064b31ff49a2d31e0493af1/63a5752c581f4d6558272fef_mssql.svg" alt="mssql" width="40" height="40"/> 
     </a> 
 </p>
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Ghostdog02&theme=dark&show_icons=true&hide_border=true&count_private=true)
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=Ghostdog02&theme=dark&show_icons=true&hide_border=true&layout=compact)
+
+![GitHub Stats](https://github-readme-streak-stats.herokuapp.com/?user=Ghostdog02&theme=dark&hide_border=true)
