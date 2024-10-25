@@ -8,12 +8,15 @@
     <a href="https://www.linkedin.com/in/alexander-vesely-b23367325/" target="blank">
         <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="alexander-vesely-b23367325" height="30" width="40" />
     </a>
+    &nbsp
     <a href="https://stackoverflow.com/users/21615491" target="blank">
         <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="21615491" height="30" width="40" />
     </a>
+    &nbsp
     <a href="https://www.leetcode.com/alexandervesely" target="blank">
         <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="alexandervesely" height="30" width="40" />
     </a>
+    &nbsp
 </p>
 &nbsp
 
