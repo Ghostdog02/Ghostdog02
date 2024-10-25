@@ -34,9 +34,3 @@
         <img src="https://assets-global.website-files.com/6064b31ff49a2d31e0493af1/63a5752c581f4d6558272fef_mssql.svg" alt="mssql" width="40" height="40"/> 
     </a> 
 </p>
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Ghostdog02&layout=compact)](https://github.com/Ghostdog02/github-readme-stats)
-
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=Ghostdog02&show_icons=true&locale=en" alt="Ghostdog02" /></p>
-
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=Ghostdog02&" alt="Ghostdog02" /></p>
