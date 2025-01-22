@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Alexander Vesely</h1>
 <h2 align="center">Always eager to expand my knowledge and take on new challenges.</h2>
 
-- 🌱 I’m currently learning **C#, MSSQL, MVC.**
+- 🌱 I’m currently learning **MSSQL, APIs.**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
