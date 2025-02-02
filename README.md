@@ -49,4 +49,4 @@
 
 [![Top Langs](https://github-readme-stats-alex-veselys-projects.vercel.app/api/top-langs/?username=Ghostdog02&hide=html&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
 
-[![GitHub Streak](https://streak-stats.demolab.com/?user=DenverCoder1&theme=dark)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com/?user=Ghostdog02&theme=dark)](https://git.io/streak-stats)
