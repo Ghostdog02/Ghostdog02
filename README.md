@@ -45,8 +45,8 @@
 </p>
 &nbsp
 
-[![Anurag's GitHub stats](https://github-readme-stats-alex-veselys-projects.vercel.app/api?username=Ghostdog02&show_icons=true&theme=dark)](https://github.com/Ghostdog02/github-readme-stats)
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Ghostdog02&show_icons=true&theme=dark)](https://github.com/Ghostdog02/github-readme-stats)
 
-[![Top Langs](https://github-readme-stats-alex-veselys-projects.vercel.app/api/top-langs/?username=Ghostdog02&hide=html&theme=dark)](https://github.com/Ghostdog02/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Ghostdog02&hide=html&theme=dark)](https://github.com/Ghostdog02/github-readme-stats)
 
 [![GitHub Streak](https://github-readme-streak-stats-alex-veselys-projects.vercel.app?user=Ghostdog02&theme=dark&hide_border=true&date_format=j%20M%5B%20Y%5D)](https://github.com/Ghostdog02/github-readme-streak-stats)
