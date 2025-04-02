@@ -1,7 +1,6 @@
 <h1 align="center">Hello 👋, I am Alexander Vesely</h1>
 <h3 align="center">
-  A passionate learner with a love for chess, programming, and reading.
-  In addition to mental challenges, I enjoy staying active through swimming and bike riding.
+  Always eager to expand my knowledge and take on new challenges.
 </h3>
 
 <p align="left">
