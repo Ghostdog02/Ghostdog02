@@ -11,7 +11,7 @@
 
 - 🔭 I’m currently working on [SmartLunchSystem](https://github.com/Ghostdog02/SmartLunchSystem)
 
-- 🌱 I’m currently learning **MySQL, Web APIs**
+- 🌱 I’m currently learning **Docker, Machine Learning**
 
 - 📫 How to reach me: **<alex.vesely07@gmail.com>**
 
