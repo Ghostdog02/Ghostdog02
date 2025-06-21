@@ -1,6 +1,6 @@
 <h1 align="center">Hello 👋, I am Alexander Vesely</h1>
 <h3 align="center">
-  I’m a passionate learner, chess enthusiast and avid reader who thrives on mental challenges. I’m a proficient C# developer building robust ASP .NET Core apps on Ubuntu with VS Code Insiders Preview. When I log off, you’ll find me recharging through swimming and bike riding.
+  I’m a passionate learner, chess enthusiast and avid reader who thrives on mental challenges. I’m a proficient C# developer building robust ASP .NET Core apps on Ubuntu with VS Code Insiders. When I log off, you’ll find me recharging through swimming and bike riding.
 </h3>
 
 <p align="left">
