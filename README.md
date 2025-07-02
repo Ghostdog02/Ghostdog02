@@ -24,7 +24,9 @@ I'm experienced with **Ubuntu 24.04** and regularly use it as my primary develop
 - Used `bash`, `curl` and `systemctl` for troubleshooting and deployment
 - Built cross-platform .NET applications that run seamlessly on both **Ubuntu** and **Windows 11**
 
-![Ubuntu](https://img.shields.io/badge/Ubuntu-24.04-E95420?logo=ubuntu&logoColor=white)
+<a href="https://ubuntu.com/download/desktop/thank-you?version=24.04.2&architecture=amd64&lts=true">
+  <img src="https://img.shields.io/badge/Ubuntu-24.04-E95420?logo=ubuntu&logoColor=white" alt="Ubuntu 24.04 Badge">
+</a>
 
 ## 💻 Full-Stack Development Skills
 
@@ -35,7 +37,6 @@ I'm proficient in building scalable full-stack web applications using the **.NET
 - ✅ **Entity Framework Core (Code-First Approach)** – Designing and evolving SQL Server databases using migrations and strongly-typed C# models
 - ✅ **Microsoft Identity** – Implementing user authentication and role-based access control
 - ✅ **Google OAuth2 Integration** – Providing seamless external login options
-- ✅ **Razor Views & Tag Helpers** – Creating responsive, dynamic UIs using server-side rendering
 - ✅ **Cross-Platform Development** – Ensuring full compatibility on **Ubuntu 24.04** and **Windows 11**
 - ✅ **xUnit Testing** – Writing unit and integration tests for both APIs and MVC logic
 
