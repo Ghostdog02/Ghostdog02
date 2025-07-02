@@ -11,9 +11,36 @@
 
 - 🔭 I’m currently working on [SmartLunchSystem](https://github.com/Ghostdog02/SmartLunchSystem)
 
-- 🌱 I’m currently learning **Docker, Machine Learning**
+- 🌱 I’m currently learning **Docker, Mongo DB, .NET Aspire**
 
 - 📫 How to reach me: **<alex.vesely07@gmail.com>**
+
+## 🐧 Linux Skills
+
+I'm experienced with **Ubuntu 24.04** and regularly use it as my primary development environment. I've:
+
+- Developed full-stack applications with ASP.NET Core on Ubuntu
+- Configured PostgreSQL/SQL Server, NGINX, and .NET SDK in Linux environments
+- Used `bash`, `curl` and `systemctl` for troubleshooting and deployment
+- Built cross-platform .NET applications that run seamlessly on both **Ubuntu** and **Windows 11**
+
+![Ubuntu](https://img.shields.io/badge/Ubuntu-24.04-E95420?logo=ubuntu&logoColor=white)
+
+## 💻 Full-Stack Development Skills
+
+I'm proficient in building scalable full-stack web applications using the **.NET ecosystem**. My core development strengths include:
+
+- ✅ **ASP.NET Core MVC** – Designing clean, maintainable, and testable user interfaces using the MVC pattern
+- ✅ **Controller-Based Web APIs** – Developing secure and RESTful endpoints for client/server communication
+- ✅ **Entity Framework Core (Code-First Approach)** – Designing and evolving SQL Server databases using migrations and strongly-typed C# models
+- ✅ **Microsoft Identity** – Implementing user authentication and role-based access control
+- ✅ **Google OAuth2 Integration** – Providing seamless external login options
+- ✅ **Razor Views & Tag Helpers** – Creating responsive, dynamic UIs using server-side rendering
+- ✅ **Cross-Platform Development** – Ensuring full compatibility on **Ubuntu 24.04** and **Windows 11**
+- ✅ **xUnit Testing** – Writing unit and integration tests for both APIs and MVC logic
+
+I've worked on projects that combine all of these technologies in a clean, modular architecture that supports long-term growth and easy maintenance, such as [SmartLunchSystem](https://github.com/Ghostdog02/SmartLunchSystem), [SystemForSchoolCoupons](https://github.com/Ghostdog02/SystemForSchoolCoupons/blob/master/README.md) and [GameStore](https://github.com/Ghostdog02/GameStore)
+
 
 ---
 
