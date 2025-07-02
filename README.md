@@ -20,7 +20,7 @@
 I'm experienced with **Ubuntu 24.04** and regularly use it as my primary development environment. I've:
 
 - Developed full-stack applications with ASP.NET Core on Ubuntu
-- Configured PostgreSQL/SQL Server, NGINX, and .NET SDK in Linux environments
+- Configured SQL Server and .NET SDK in Linux environments
 - Used `bash`, `curl` and `systemctl` for troubleshooting and deployment
 - Built cross-platform .NET applications that run seamlessly on both **Ubuntu** and **Windows 11**
 
