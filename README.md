@@ -1,6 +1,6 @@
 <h1 align="center">Hello 👋, I am Alexander Vesely</h1>
 <h3 align="center">
-  I’m a passionate learner, chess enthusiast and avid reader who thrives on mental challenges. I’m a proficient C# developer building robust ASP .NET Core apps on Ubuntu with VS Code Insiders. When I log off, you’ll find me recharging through swimming and bike riding.
+  I’m a passionate learner, a chess enthusiast, and an avid reader who thrives on mental challenges. I’m a proficient C# developer building robust ASP .NET Core apps on Ubuntu with VS Code Insiders. When I log off, you’ll find me recharging through swimming and bike riding.
 </h3>
 
 <p align="left">
@@ -9,7 +9,32 @@
   </a>
 </p>
 
-- 🔭 I’m currently working on [SmartLunchSystem](https://github.com/Ghostdog02/SmartLunchSystem)
+## 💼 Experience
+
+### 🌐 [DevGuard](https://github.com/Ghostdog02/DevGuardSystem) – A Cross-Platform ASP.NET Core MVC Web Application with Google Authentication & Role-Based Access
+
+**Overview:**  
+DevGuard is a robust full-stack web application built with ASP.NET Core MVC and Web API. It’s designed for seamless development and deployment across both **Ubuntu 24.04** and **Windows 11**.
+
+**Architectural Highlights:**
+
+- 🧱 **Modular MVC Architecture** – Separation of concerns between Models, Views, and Controllers ensures clean, scalable, and testable code
+- 🔌 **RESTful API Layer** – API controllers support client-server interaction, external integrations, and frontend consumption
+- 🧩 **Role-Based Security** – Built-in identity system manages users, roles, and secure access control with Google OAuth2 integration
+- 🗄️ **Code-First EF Core Migrations** – Database schema evolves safely and predictably through version-controlled migrations
+- 🧪 **Test-Driven Development** – Extensive use of xUnit for unit, integration, and edge-case testing at both API and service levels
+- 🐳 **Docker Compatibility** – Supports containerised SQL Server setup for Linux-based development and deployment
+- 🔀 **Cross-Platform Agility** – Runs natively on **Ubuntu 24.04** and **Windows 11**, tested with .NET 9 SDK and VS Code/Visual Studio
+
+> Whether you're cloning this on Linux or Windows, DevGuard is designed to work securely and scalably.
+
+---
+
+## 📘 Currently Learning
+
+- 🔢 Solving **algorithm challenges** on platforms like LeetCode
+- 🌲 Deep-diving into **complex data structures** and problem-solving patterns
+- 🐳 Expanding my backend toolbox with **Docker**, **MongoDB**, and **.NET Aspire**
 
 - 🌱 I’m currently learning **Docker, Mongo DB, .NET Aspire**
 
@@ -40,7 +65,7 @@ I'm proficient in building scalable full-stack web applications using the **.NET
 - ✅ **Cross-Platform Development** – Ensuring full compatibility on **Ubuntu 24.04** and **Windows 11**
 - ✅ **xUnit Testing** – Writing unit and integration tests for both APIs and MVC logic
 
-I've worked on projects that combine all of these technologies in a clean, modular architecture that supports long-term growth and easy maintenance, such as [SmartLunchSystem](https://github.com/Ghostdog02/SmartLunchSystem), [SystemForSchoolCoupons](https://github.com/Ghostdog02/SystemForSchoolCoupons/blob/master/README.md) and [GameStore](https://github.com/Ghostdog02/GameStore)
+I've worked on projects that combine all of these technologies in a clean, modular architecture that supports long-term growth and easy maintenance, such as [SystemForSchoolCoupons](https://github.com/Ghostdog02/SystemForSchoolCoupons/blob/master/README.md) and [GameStore](https://github.com/Ghostdog02/GameStore)
 
 
 ---
