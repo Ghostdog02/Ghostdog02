@@ -118,10 +118,6 @@ I've worked on projects that combine all of these technologies in a clean, modul
     <img src="https://imgs.search.brave.com/ZyEZ0n-lUxPgpgJ3ECtqqTCyAlXZ10hS_EO3GI--a6w/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9sb2dv/bm9pZC5jb20vaW1h/Z2VzL3NxbC1zZXJ2/ZXItbG9nby5wbmc" alt="SQL Server" width="40" height="40" />
   </a>
   &nbsp
-  <a href="https://www.mysql.com/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" width="40" height="40" />
-  </a>
-  &nbsp
   <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer">
     <img src="https://imgs.search.brave.com/RCKLgEkQClL8pVGMwEjWuAprg6ppxV-TWTUoilP2nXU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9hdGQt/YmxvZ2VzLnMzLnVz/LWVhc3QtMi5hbWF6/b25hd3MuY29tL3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDIyLzA1/LzE2MTUxMDUxLzMt/aG93LXRvLW1ha2Ut/YS13YXRlcm1hcmst/bG9nby1pbi1waG90/b3Nob3Aud2VicA" alt="Photoshop" width="40" height="40" />
   </a>
