@@ -1,7 +1,6 @@
 <h1 align="center">Hello 👋, I am Alexander Vesely</h1>
 <h3 align="center">
-  I’m a passionate learner, a chess enthusiast, and an avid reader who thrives on mental challenges. I’m a proficient C# developer building robust ASP .NET Core apps on Ubuntu with VS Code Insiders. When I log off, you’ll find me recharging through swimming and bike riding.
-</h3>
+Aspiring Junior Software Engineer with over 1 year of experience developing personal full-stack ASP.NET Core applications. Skilled in C#, APIs and databases. Fast learner with excellent problem-solving skills and a commitment to clean coding practices.</h3>
 
 <p align="left">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
