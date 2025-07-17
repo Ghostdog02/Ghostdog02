@@ -43,7 +43,6 @@ I'm experienced with **Ubuntu 24.04** and regularly use it as my primary develop
 
 - Developed full-stack applications with ASP.NET Core on Ubuntu
 - Configured SQL Server and .NET SDK in Linux environments
-- Used `bash`, `curl` and `systemctl` for troubleshooting and deployment
 - Built cross-platform .NET applications that run seamlessly on both **Ubuntu** and **Windows 11**
 
 <a href="https://ubuntu.com/download/desktop/thank-you?version=24.04.2&architecture=amd64&lts=true">
