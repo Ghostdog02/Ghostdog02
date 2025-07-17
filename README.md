@@ -35,8 +35,6 @@ DevGuard is a robust full-stack web application built with ASP.NET Core MVC and 
 - 🌲 Deep-diving into **complex data structures** and problem-solving patterns
 - 🐳 Expanding my backend toolbox with **Docker**, **MongoDB**, and **.NET Aspire**
 
-- 🌱 I’m currently learning **Docker, Mongo DB, .NET Aspire**
-
 - 📫 How to reach me: **<alex.vesely07@gmail.com>**
 
 ## 🐧 Linux Skills
