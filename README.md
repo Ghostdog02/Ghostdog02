@@ -4,7 +4,7 @@ Aspiring Junior Software Engineer with over 1 year of experience developing pers
 
 <p align="left">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=ghostdog02" alt="ghostdog02" />
+    <img src="https://github-profile-trophy.vercel.app/?username=ghostdog02&theme=onedark" alt="ghostdog02" />
   </a>
 </p>
 
