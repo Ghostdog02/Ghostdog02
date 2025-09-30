@@ -21,7 +21,7 @@ DevGuard is a robust full-stack web application built with ASP.NET Core MVC and 
 - 🔌 **RESTful API Layer** – API controllers support client-server interaction, external integrations, and frontend consumption
 - 🧩 **Role-Based Security** – Built-in identity system manages users, roles, and secure access control with Google OAuth2 integration
 - 🗄️ **Code-First EF Core Migrations** – Database schema evolves safely and predictably through version-controlled migrations
-- 🧪 **Test-Driven Development** – Extensive use of xUnit for unit, integration, and edge-case testing at both API and service levels
+- 🧪 **Testing** – Extensive use of xUnit for unit and integration testing at both API and service levels
 - 🐳 **Docker Compatibility** – Supports containerised SQL Server setup for Linux-based development and deployment
 - 🔀 **Cross-Platform Agility** – Runs natively on **Ubuntu 24.04** and **Windows 11**, tested with .NET 9 SDK and VS Code/Visual Studio
 
@@ -33,7 +33,9 @@ DevGuard is a robust full-stack web application built with ASP.NET Core MVC and 
 
 - 🔢 Solving **algorithm challenges** on platforms like LeetCode
 - 🌲 Deep-diving into **complex data structures** and problem-solving patterns
-- 🐳 Expanding my backend toolbox with **Docker**, **MongoDB**, and **.NET Aspire**
+- 🐳 Expanding my backend toolbox with **Docker** and **MongoDB**.
+- <img width="20" height="30" alt="image" src="https://github.com/user-attachments/assets/193c18ba-4f2f-4572-917e-cdd94a9ca2fc" /> Diving deeper into frontend development with Angular.
+
 
 - 📫 How to reach me: **<alex.vesely07@gmail.com>**
 
