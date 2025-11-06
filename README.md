@@ -8,32 +8,10 @@ Aspiring Junior Software Engineer with over 1 year of experience developing pers
   </a>
 </p>
 
-## 💼 Experience
-
-### 🌐 [DevGuard](https://github.com/Ghostdog02/DevGuardSystem) – A Cross-Platform ASP.NET Core MVC Web Application with Google Authentication & Role-Based Access
-
-**Overview:**  
-DevGuard is a robust full-stack web application built with ASP.NET Core MVC and Web API. It’s designed for seamless development and deployment across both **Ubuntu 24.04** and **Windows 11**.
-
-**Architectural Highlights:**
-
-- 🧱 **Modular MVC Architecture** – Separation of concerns between Models, Views, and Controllers ensures clean, scalable, and testable code
-- 🔌 **RESTful API Layer** – API controllers support client-server interaction, external integrations, and frontend consumption
-- 🧩 **Role-Based Security** – Built-in identity system manages users, roles, and secure access control with Google OAuth2 integration
-- 🗄️ **Code-First EF Core Migrations** – Database schema evolves safely and predictably through version-controlled migrations
-- 🧪 **Testing** – Extensive use of xUnit for unit and integration testing at both API and service levels
-- 🐳 **Docker Compatibility** – Supports containerised SQL Server setup for Linux-based development and deployment
-- 🔀 **Cross-Platform Agility** – Runs natively on **Ubuntu 24.04** and **Windows 11**, tested with .NET 9 SDK and VS Code/Visual Studio
-
-> Whether you're cloning this on Linux or Windows, DevGuard is designed to work securely and scalably.
-
----
-
 ## 📘 Currently Learning
 
-- 🔢 Solving **algorithm challenges** on platforms like LeetCode
-- 🌲 Deep-diving into **complex data structures** and problem-solving patterns
 - 🐳 Expanding my backend toolbox with **Docker** and **MongoDB**.
+- <img width="20" height="30" alt="image" src="https://github.com/user-attachments/assets/32a80680-a8c4-4787-b34a-113c2d5e0a5c" /> Building a Language Learning app with Angular and ASP.NET.
 - <img width="20" height="30" alt="image" src="https://github.com/user-attachments/assets/193c18ba-4f2f-4572-917e-cdd94a9ca2fc" /> Diving deeper into frontend development with Angular.
 
 
@@ -43,13 +21,9 @@ DevGuard is a robust full-stack web application built with ASP.NET Core MVC and 
 
 I'm experienced with **Ubuntu 24.04** and regularly use it as my primary development environment. I've:
 
-- Developed full-stack applications with ASP.NET Core on Ubuntu
+- Developed full-stack applications with ASP.NET Core on Debian
 - Configured SQL Server and .NET SDK in Linux environments
 - Built cross-platform .NET applications that run seamlessly on both **Ubuntu** and **Windows 11**
-
-<a href="https://ubuntu.com/download/desktop/thank-you?version=24.04.2&architecture=amd64&lts=true">
-  <img src="https://img.shields.io/badge/Ubuntu-24.04-E95420?logo=ubuntu&logoColor=white" alt="Ubuntu 24.04 Badge">
-</a>
 
 ## 💻 Full-Stack Development Skills
 
@@ -60,7 +34,7 @@ I'm proficient in building scalable full-stack web applications using the **.NET
 - ✅ **Entity Framework Core (Code-First Approach)** – Designing and evolving SQL Server databases using migrations and strongly-typed C# models
 - ✅ **Microsoft Identity** – Implementing user authentication and role-based access control
 - ✅ **Google OAuth2 Integration** – Providing seamless external login options
-- ✅ **Cross-Platform Development** – Ensuring full compatibility on **Ubuntu 24.04** and **Windows 11**
+- ✅ **Cross-Platform Development** – Ensuring full compatibility on **Debian 12** and **Windows 11**
 - ✅ **xUnit Testing** – Writing unit and integration tests for both APIs and MVC logic
 
 I've worked on projects that combine all of these technologies in a clean, modular architecture that supports long-term growth and easy maintenance, such as [SystemForSchoolCoupons](https://github.com/Ghostdog02/SystemForSchoolCoupons/blob/master/README.md) and [GameStore](https://github.com/Ghostdog02/GameStore)
