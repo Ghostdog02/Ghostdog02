@@ -68,12 +68,18 @@ Lexiq is a **production-grade full-stack educational platform** built with **ASP
 ---
 
 ### 🤝 Connect with me:
-<p align="left">
-<a href="https://www.linkedin.com/in/alexander-vesely-b23367325/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" /></a>
-<a href="https://discord.gg/hackblood" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="Discord" height="30" width="40" /></a>
-</p>
 
----
+<p align="left">
+📧 alex.vesely07@gmail.com<br><br>
+
+<a href="https://www.linkedin.com/in/alexander-vesely-b23367325/" target="blank">
+  <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" />
+</a>
+
+<a href="https://discord.gg/hackblood" target="blank">
+  <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="Discord" height="30" width="40" />
+</a>
+</p>
 
 ### 📊 GitHub Stats:
 
