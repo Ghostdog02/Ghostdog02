@@ -30,12 +30,15 @@ Lexiq is a **production-grade full-stack educational platform** built with **ASP
 * **Engineered** **zero-downtime deployment strategy** with **health validation** and **rollback mechanisms**.
 ---
 
-### 🔭 Current Focus & Research
+### 🔧 DevOps & Infrastructure Development (Ongoing)
 
-* **Agentic AI & Prompt Engineering:** Deep-diving into the mechanics of autonomous agent workflows, LLM orchestration, and the art of structured prompting for complex reasoning tasks.
-* **Microservices:** Investigating the transition from monolithic to distributed architectures and service-mesh communication patterns.
-* **Linux System Administration:** Hardening environments through advanced **SSH configuration**, **firewall management (UFW/IPTables)**, and **user/permission management**. Exploring automated SSL certificate lifecycle management via **Let's Encrypt**.
-* **DevOps & Infrastructure:** Optimizing developer workflows using **Docker**, **Bash automation**, and **GitHub Actions**. Deepening my interest in **System Monitoring** tools (Prometheus/Grafana) to improve stack observability.
+* Actively expanding expertise in **Infrastructure as Code (IaC)** using **Terraform** for declarative cloud resource provisioning.
+
+* Learning and implementing **Ansible** for configuration management, automation, and environment orchestration.
+
+* Designing and planning a **self-hosted Linux home server** to gain hands-on experience in **system administration**, **network configuration**, **service deployment**, and **infrastructure automation**.
+
+* Deepening knowledge in **Linux system internals**, **process management**, **networking**, and **secure server configuration**.
 
 ---
 
@@ -66,7 +69,6 @@ Lexiq is a **production-grade full-stack educational platform** built with **ASP
 
 ### 🤝 Connect with me:
 <p align="left">
-<a href="mailto:alexander.vesely@email.com" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/envelope.svg" alt="Email" height="30" width="40" /></a>
 <a href="https://www.linkedin.com/in/alexander-vesely-b23367325/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" /></a>
 <a href="https://discord.gg/hackblood" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="Discord" height="30" width="40" /></a>
 </p>
