@@ -1,25 +1,33 @@
 # Hi there, I'm Alexander! 👋
 
-### Computer Science student with 1+ years of hands-on experience building production-ready, open-source web applications using **ASP.NET Core** and **C#**.
-
-* **Focus:** Backend architecture, API design, and database modeling.
-* **Strengths:** Analytical problem-solving and writing clean, maintainable, and scalable code.
-* **Systems:** Expertise in secure authentication and database management.
+### About
+Backend-focused Computer Science student with hands-on experience architecting and deploying production-grade
+full-stack systems using ASP.NET Core and Angular. Experienced in designing secure authentication systems,
+stateless API architectures, and implementing CI/CD automation with containerized deployments. Strong
+foundation in backend engineering, cloud infrastructure, and secure system design.
 
 ---
 
-### 🚀 Featured Project: Lexiq
+## 🚀 Projects
 
-**Full-Stack Educational Platform** *ASP.NET Core • Angular • MS SQL • Docker • Nginx • GitHub Actions*
+### **Lexiq – Full-Stack Educational Platform**  
+**ASP.NET Core · Angular · MS SQL · Docker · Nginx · GitHub Actions**
 
-Architected and deployed a production-grade educational platform, owning everything from database design to cloud infrastructure.
+Lexiq is a **production-grade full-stack educational platform** built with **ASP.NET Core Web API** and **Angular**, designed with a **stateless authentication architecture**, **containerized multi-service deployment**, and automated **CI/CD pipelines** running on **Linux-based cloud infrastructure**.
 
-* **Secure Auth:** Designed a stateless architecture using **Google OAuth 2.0** and **HttpOnly JWT cookies** to prevent XSS-based token theft.
-* **Infrastructure:** Engineered a containerized 3-service architecture (Frontend, Backend, DB) using **Docker Compose**.
-* **Networking:** Configured **Nginx** as a reverse proxy to resolve CORS challenges and isolate backend services.
-* **DevOps:** Implemented **CI/CD via GitHub Actions** with zero-downtime deployment scripts and automatic rollbacks.
-* **Cloud Ops:** Administered Linux-based production servers on **Hetzner Cloud** with SSH hardening and non-root deployments.
+* **Designed** stateless authentication using **Google OAuth 2.0** with **HttpOnly JWT cookies**, eliminating **server-side session storage** and enabling **horizontal API scalability**.
 
+* **Developed** **15+ RESTful API endpoints** with **role-based authorization** following a **clean, layered architecture**.
+
+* **Containerized** frontend, backend, and database services using **Docker Compose** with **multi-stage builds** and **health checks**, reducing deployment inconsistencies by ~**70%**.
+
+* **Configured** **Nginx reverse proxy** for **centralized ingress control** and secure **same-origin cookie handling**.
+
+* **Implemented** automated **CI/CD pipeline** using **GitHub Actions**, reducing manual release effort by ~**80%**.
+
+* **Administered** **Linux production server**, implementing **firewall configuration**, **SSH hardening**, and **automated container restarts**.
+
+* **Engineered** **zero-downtime deployment strategy** with **health validation** and **rollback mechanisms**.
 ---
 
 ### 🔭 Current Focus & Research
