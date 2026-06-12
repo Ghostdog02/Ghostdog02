@@ -1,87 +1,127 @@
-# Hi there, I'm Alexander! 👋
+# Hi, I'm Alexander 👋
 
-### About
-Backend-focused Computer Science student with hands-on experience architecting and deploying production-grade
-full-stack systems using ASP.NET Core and Angular. Experienced in designing secure authentication systems,
-stateless API architectures, and implementing CI/CD automation with containerized deployments. Strong
-foundation in backend engineering, cloud infrastructure, and secure system design.
+Backend-focused Computer Science student building and shipping **production-grade systems** — from full-stack apps to the cloud infrastructure that runs them. I care about how things actually get deployed, secured, and kept running, not just how they're coded.
+
+Currently deepening my DevOps expertise: Prometheus & Grafana for observability, Nginx tuning, and building a self-hosted VPN server to get closer to Linux internals.
+
+---
+
+## 🔧 Technical Skills
+
+| Category | Technologies |
+| :--- | :--- |
+| **Languages** | C#, TypeScript, Bash |
+| **Backend** | ASP.NET Core, Node.js, Express |
+| **Frontend** | Angular, HTML5, SCSS |
+| **Databases** | MS SQL Server, MongoDB |
+| **Infrastructure** | Terraform, Ansible, Docker, Nginx, Cloudflare |
+| **CI/CD & VCS** | GitHub Actions, Git |
+| **OS & Security** | Linux (Ubuntu), UFW, fail2ban, SSH hardening |
+| **Design** | Photoshop, Illustrator |
+
+<p align="left">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original-wordmark.svg" alt="dotnet" width="40" height="40"/>
+  <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/>
+  <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="angular" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/terraform/terraform-original.svg" alt="terraform" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ansible/ansible-original.svg" alt="ansible" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" alt="nginx" width="40" height="40"/>
+</p>
 
 ---
 
 ## 🚀 Projects
 
-### **Lexiq – Full-Stack Educational Platform**  
-**ASP.NET Core · Angular · MS SQL · Docker · Nginx · GitHub Actions**
+### Lexiq — Production Full-Stack Language Learning Platform
 
-Lexiq is a **production-grade full-stack educational platform** built with **ASP.NET Core Web API** and **Angular**, designed with a **stateless authentication architecture**, **containerized multi-service deployment**, and automated **CI/CD pipelines** running on **Linux-based cloud infrastructure**.
+[![.NET](https://img.shields.io/badge/.NET-10.0-512BD4)](https://dotnet.microsoft.com/)
+[![Angular](https://img.shields.io/badge/Angular-21-DD0031)](https://angular.io/)
+[![Docker](https://img.shields.io/badge/Docker-Compose-2496ED)](https://www.docker.com/)
+[![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-2088FF)](https://github.com/features/actions)
+[![Cloudflare](https://img.shields.io/badge/Cloudflare-Tunnel%20%2B%20Zero%20Trust-F38020)](https://www.cloudflare.com/)
 
-* **Designed** stateless authentication using **Google OAuth 2.0** with **HttpOnly JWT cookies**, eliminating **server-side session storage** and enabling **horizontal API scalability**.
+**[relexiq.com](https://relexiq.com) · [Repository](https://github.com/Ghostdog02/Lexiq)**
 
-* **Developed** **15+ RESTful API endpoints** with **role-based authorization** following a **clean, layered architecture**.
+A language learning app (Italian for English speakers) built end-to-end as a production-grade technical showcase. Users progress through structured lessons, complete interactive exercises, earn XP, and compete on a leaderboard.
 
-* **Containerized** frontend, backend, and database services using **Docker Compose** with **multi-stage builds** and **health checks**, reducing deployment inconsistencies by ~**70%**.
+**What makes it production-grade:**
 
-* **Configured** **Nginx reverse proxy** for **centralized ingress control** and secure **same-origin cookie handling**.
+- **Zero exposed ports** — all traffic routed through a Cloudflare Tunnel; TLS terminated at the edge with DDoS, WAF, and bot protection included
+- **Stateless authentication** — Google OAuth 2.0 issues a JWT stored in an HttpOnly cookie, never accessible to JavaScript, enabling horizontal API scalability
+- **Full CI/CD pipeline** — every push to `master` builds Docker images, runs the complete test suite (unit → integration → E2E via Testcontainers), pushes to GHCR, and deploys — no manual steps
+- **Two-layer caching** — static assets (JS/CSS/fonts) served from Cloudflare's global edge with 1-year immutable TTL; API responses cached server-side via `IMemoryCache`
+- **Automated dependency management** — Dependabot monitors Docker, npm, NuGet, and GitHub Actions; PRs that pass tests are auto-merged
+- **Security scanning** — GitHub CodeQL runs on every push and PR for both C# and TypeScript
 
-* **Implemented** automated **CI/CD pipeline** using **GitHub Actions**, reducing manual release effort by ~**80%**.
+**Infrastructure snapshot:**
 
-* **Administered** **Linux production server**, implementing **firewall configuration**, **SSH hardening**, and **automated container restarts**.
+```
+Browser → Cloudflare Edge (TLS, DDoS, WAF, Cache)
+        → cloudflared (Cloudflare Tunnel)
+        → Nginx (Docker bridge, plain HTTP)
+        → ASP.NET Core API : MS SQL Server
+```
 
-* **Engineered** **zero-downtime deployment strategy** with **health validation** and **rollback mechanisms**.
+**Tech stack:** ASP.NET Core 10 · Angular 21 · MS SQL Server 2022 · Docker Compose · Nginx · Cloudflare Tunnel + Zero Trust · GitHub Actions · xUnit v3 + Testcontainers · CodeQL
+
 ---
 
-### 🔧 DevOps & Infrastructure Development (Ongoing)
+### Production Server Infrastructure — Hetzner Cloud
 
-* Actively expanding expertise in **Infrastructure as Code (IaC)** using **Terraform** for declarative cloud resource provisioning.
+[![Terraform](https://img.shields.io/badge/Terraform-IaC-7B42BC)](https://www.terraform.io/)
+[![Ansible](https://img.shields.io/badge/Ansible-Configuration-EE0000)](https://www.ansible.com/)
+[![Cloudflare](https://img.shields.io/badge/Cloudflare-Zero%20Trust%20SSH-F38020)](https://www.cloudflare.com/)
 
-* Learning and implementing **Ansible** for configuration management, automation, and environment orchestration.
+**[Repository](https://github.com/Ghostdog02/server-configuration)**
 
-* Designing and planning a **self-hosted Linux home server** to gain hands-on experience in **system administration**, **network configuration**, **service deployment**, and **infrastructure automation**.
+Infrastructure-as-Code for provisioning and configuring the production server that runs Lexiq. Fully automated from a `git push`.
 
-* Deepening knowledge in **Linux system internals**, **process management**, **networking**, and **secure server configuration**.
+**Architecture:**
 
----
+```
+GitHub Actions
+    ├── Terraform (Terraform Cloud) → Hetzner Cloud API → provisions server
+    └── Ansible → Cloudflare Tunnel → SSH → configures server
+```
 
-### 🛠 Languages and Tools:
+> SSH port 22 is never exposed to the public internet. All Ansible connections are routed through a Cloudflare Tunnel authenticated via Cloudflare Access service tokens.
 
-| Category | Tools |
+**What's automated:**
+
+| Ansible Role | What it does |
 | :--- | :--- |
-| **Languages** | C#, TypeScript, Bash |
-| **Backend** | .NET, Node.js, Express, Nginx |
-| **Frontend** | Angular, HTML5, CSS3 |
-| **Databases** | MSSQL, MongoDB |
-| **DevOps/Tools** | Docker, Git, Linux, Mocha |
-| **Design** | Photoshop, Illustrator |
+| `users` | Creates `deploy` and `developer` system users |
+| `docker` | Installs Docker Engine |
+| `directories` | Creates application directory structure |
+| `ssh` | Hardens SSH config (key-only auth, restricted ciphers) |
+| `security` | Configures UFW firewall and fail2ban |
+| `cloudflared` | Installs and runs the Cloudflare Tunnel as a systemd service |
 
-<br/>
-
-<p align="left"> 
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/> 
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original-wordmark.svg" alt="dotnet" width="40" height="40"/> 
-  <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40"/> 
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> 
-  <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="angular" width="40" height="40"/> 
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/>
-</p>
+**Key decisions:**
+- Terraform state is managed remotely via **Terraform Cloud** — no local state files, safe for CI
+- Secrets are encrypted at rest with **Ansible Vault** and injected at deploy time
+- Cloudflare Zero Trust replaces a public SSH port entirely — the attack surface is zero
 
 ---
 
-### 🤝 Connect with me:
+## 📡 Currently Learning
 
-<p align="left">
-📧 alex.vesely07@gmail.com<br><br>
+I'm focused on the operational side of running software in production:
 
-<a href="https://www.linkedin.com/in/alexander-vesely-b23367325/" target="blank">
-  <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" />
-</a>
+| Area | Goal |
+| :--- | :--- |
+| **Prometheus + Grafana** | Build observability into production systems — metrics, dashboards, alerting |
+| **Nginx internals** | Go beyond basic reverse proxy — rate limiting, caching, TLS tuning, upstream health |
+| **VPN server (self-hosted)** | Hands-on Linux networking: routing, tun/tap interfaces, firewall rules, WireGuard |
+| **Linux internals** | Process management, namespaces, cgroups, systemd services, kernel parameters |
 
-<a href="https://discord.gg/hackblood" target="blank">
-  <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="Discord" height="30" width="40" />
-</a>
-</p>
+---
 
-### 📊 GitHub Stats:
+## 📊 GitHub Stats
 
 <p align="left">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
@@ -94,3 +134,18 @@ Lexiq is a **production-grade full-stack educational platform** built with **ASP
 &nbsp; [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Ghostdog02&hide=html&theme=dark)](https://github.com/Ghostdog02/github-readme-stats)
 
 &nbsp; [![GitHub Streak](https://github-readme-streak-stats-alex-veselys-projects.vercel.app?user=Ghostdog02&theme=dark&hide_border=true&date_format=j%20M%5B%20Y%5D)](https://github.com/Ghostdog02/github-readme-streak-stats)
+
+---
+
+## 🤝 Connect
+
+📧 alex.vesely07@gmail.com
+
+<p align="left">
+<a href="https://www.linkedin.com/in/alexander-vesely-b23367325/" target="blank">
+  <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" />
+</a>
+<a href="https://discord.gg/hackblood" target="blank">
+  <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="Discord" height="30" width="40" />
+</a>
+</p>
