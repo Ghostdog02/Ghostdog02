@@ -1,19 +1,14 @@
 # Hi, I'm Alexander 👋
 
-Backend-focused Computer Science student who builds and ships **production-grade systems** — from secure full-stack web apps to the cloud infrastructure that runs them. I care about the whole path: a clean UI, authentication and authorization done right, and code that actually gets deployed, secured, and kept running.
+I'm a computer science student who mostly works on the backend. I enjoy following a project the whole way through: the UI, authentication and authorization, and then the less glamorous part of getting it deployed, secured, and kept running. I've been building and running my own projects end to end, and I'm still learning something new from each one.
 
-> 💼 **Available for freelance — I make your app production-ready.**
-> I take working code and get it *live, secure, and automated*: containerized, deployed behind Cloudflare, with a CI/CD pipeline so your next update is one `git push`.
-> **[Work with me on Fiverr →](https://www.fiverr.com/s/DB8GYbV)**
-> <!-- swap the link for your main Fiverr profile URL if you prefer -->
+### Where I can help
 
-### What I can do for you
-
-- 🚀 **Deploy & productionize your web app** — Docker, a cloud server, HTTPS, and Cloudflare security (any stack: .NET, Node, Python, Angular, React)
-- 🏗️ **Build a secure full-stack web app** — ASP.NET Core + Angular with a clean, well-designed UI and authentication & authorization done properly (OAuth 2.0, JWT, HttpOnly cookies) — see **Lexiq** below for a live example
-- 🔁 **Set up CI/CD** — automated build, test, and deploy pipelines with GitHub Actions
-- 🛟 **Rescue AI-built / vibe-coded apps** — get your Lovable / Cursor / Bolt / v0 project off "works in preview" and onto a real, stable URL
-- 🔒 **Harden & automate infrastructure** — Terraform + Ansible, SSH lockdown, firewall, secrets management, zero exposed ports
+- 🚀 **Deploying web apps**: Docker, a cloud server, HTTPS, and Cloudflare, with experience across .NET, Node, Python, Angular, and React
+- 🏗️ **Full-stack apps**: ASP.NET Core and Angular, with auth handled carefully (OAuth 2.0, JWT, HttpOnly cookies). **Lexiq** below is my most complete example
+- 🔁 **CI/CD**: build, test, and deploy pipelines with GitHub Actions
+- 🛟 **Getting AI-built apps live**: if a Lovable, Cursor, Bolt, or v0 project works in preview but isn't on a stable URL yet, I'm happy to help with that last stretch
+- 🔒 **Infrastructure basics**: Terraform and Ansible, SSH hardening, firewalls, secrets management, and keeping public ports to a minimum
 
 ---
 
@@ -25,9 +20,9 @@ Backend-focused Computer Science student who builds and ships **production-grade
 | **Backend**        | ASP.NET Core, Node.js, Express                |
 | **Frontend**       | Angular, HTML5, SCSS                          |
 | **Databases**      | MS SQL Server, MongoDB                        |
-| **Infrastructure** | Terraform, Ansible, Docker, Nginx, Cloudflare |
+| **Infrastructure** | Terraform, Ansible, Docker, Nginx             |
 | **CI/CD & VCS**    | GitHub Actions, Git                           |
-| **OS & Security**  | Linux (Ubuntu), UFW, fail2ban, SSH hardening  |
+| **OS**             | Linux, Windows 10/11, Temple OS               |
 | **Design**         | Photoshop, Illustrator                        |
 
 <p align="left">
@@ -47,7 +42,7 @@ Backend-focused Computer Science student who builds and ships **production-grade
 
 ## 🚀 Projects
 
-### Lexiq — Production Full-Stack Language Learning Platform
+### Lexiq: Language Learning Platform
 
 ![.NET](https://img.shields.io/badge/.NET-10.0-512BD4)
 ![Angular](https://img.shields.io/badge/Angular-21-DD0031)
@@ -57,16 +52,16 @@ Backend-focused Computer Science student who builds and ships **production-grade
 
 **[relexiq.com](https://relexiq.com) · [Repository](https://github.com/Ghostdog02/Lexiq)**
 
-A language learning app (Italian for English speakers) built end-to-end as a production-grade technical showcase. Users progress through structured lessons, complete interactive exercises, earn XP, and compete on a leaderboard.
+A language learning app (Italian for English speakers) that I built end to end, partly as a way to practice running a real production system. Users work through structured lessons, complete interactive exercises, earn XP, and compete on a leaderboard.
 
-**What makes it production-grade:**
+**Some of the things I worked on:**
 
-- **Zero exposed ports** — all traffic routed through a Cloudflare Tunnel; TLS terminated at the edge with DDoS, WAF, and bot protection included
-- **Stateless authentication** — Google OAuth 2.0 issues a JWT stored in an HttpOnly cookie, never accessible to JavaScript, enabling horizontal API scalability
-- **Full CI/CD pipeline** — every push to `master` builds Docker images, runs the complete test suite (unit → integration → E2E via Testcontainers), pushes to GHCR, and deploys — no manual steps
-- **Two-layer caching** — static assets served from Cloudflare's global edge with a 1-year immutable TTL; API responses cached server-side via `IMemoryCache`
-- **Automated dependency management** — Dependabot monitors Docker, npm, NuGet, and GitHub Actions; PRs that pass tests are auto-merged
-- **Security scanning** — GitHub CodeQL runs on every push and PR for both C# and TypeScript
+- **No exposed ports**: all traffic goes through a Cloudflare Tunnel, with TLS, DDoS, WAF, and bot protection handled at the edge
+- **Stateless authentication**: Google OAuth 2.0 issues a JWT stored in an HttpOnly cookie, so it's never accessible to JavaScript and the API can scale horizontally
+- **CI/CD pipeline**: every push to `master` builds Docker images, runs the test suite (unit, integration, and E2E via Testcontainers), pushes to GHCR, and deploys
+- **Two-layer caching**: static assets are cached at Cloudflare's edge with a 1-year immutable TTL, and API responses are cached server-side with `IMemoryCache`
+- **Dependency management**: Dependabot watches Docker, npm, NuGet, and GitHub Actions, and PRs that pass tests are auto-merged
+- **Security scanning**: GitHub CodeQL runs on every push and PR for both C# and TypeScript
 
 **Infrastructure snapshot:**
 
@@ -81,7 +76,7 @@ Browser → Cloudflare Edge (TLS, DDoS, WAF, Cache)
 
 ---
 
-### Production Server Infrastructure — Hetzner Cloud
+### Server Infrastructure: Hetzner Cloud
 
 ![Terraform](https://img.shields.io/badge/Terraform-IaC-7B42BC)
 ![Ansible](https://img.shields.io/badge/Ansible-Configuration-EE0000)
@@ -89,7 +84,7 @@ Browser → Cloudflare Edge (TLS, DDoS, WAF, Cache)
 
 **[Repository](https://github.com/Ghostdog02/server-configuration)**
 
-Infrastructure-as-Code for provisioning and configuring the production server that runs Lexiq. Fully automated from a `git push`.
+Infrastructure as code for provisioning and configuring the server that runs Lexiq, automated from a `git push`.
 
 **Architecture:**
 
@@ -99,7 +94,7 @@ GitHub Actions
     └── Ansible → Cloudflare Tunnel → SSH → configures server
 ```
 
-> SSH port 22 is never exposed to the public internet. All Ansible connections are routed through a Cloudflare Tunnel authenticated via Cloudflare Access service tokens.
+> SSH port 22 isn't exposed to the public internet. Ansible connects through a Cloudflare Tunnel, authenticated with Cloudflare Access service tokens.
 
 **What's automated:**
 
@@ -112,25 +107,20 @@ GitHub Actions
 | `security`    | Configures UFW firewall and fail2ban                         |
 | `cloudflared` | Installs and runs the Cloudflare Tunnel as a systemd service |
 
-**Key decisions:**
+**Decisions I made along the way:**
 
-- Terraform state is managed remotely via **Terraform Cloud** — no local state files, safe for CI
+- Terraform state lives in **Terraform Cloud**, so there are no local state files and it works cleanly in CI
 - Secrets are encrypted at rest with **Ansible Vault** and injected at deploy time
-- Cloudflare Zero Trust replaces a public SSH port entirely — the attack surface is zero
+- Cloudflare Zero Trust replaces a public SSH port, which removes one of the most commonly attacked entry points
 
 ---
 
-## 📡 Currently Expanding Into
-
-Actively adding the operational layer that turns a running app into one you can trust at 3 a.m. — shipping into the projects above as I go:
-
-| Area                         | Goal                                                                                |
-| ---------------------------- | ----------------------------------------------------------------------------------- |
-| **Prometheus + Grafana**     | Observability for production systems — metrics, dashboards, alerting                 |
-| **Nginx internals**          | Beyond basic reverse proxy — rate limiting, caching, TLS tuning, upstream health     |
-| **VPN server (self-hosted)** | Hands-on Linux networking: routing, tun/tap interfaces, firewall rules, WireGuard    |
-| **Linux internals**          | Process management, namespaces, cgroups, systemd services, kernel parameters         |
-
+## 📡 What I'm Learning Next
+ 
+I'm still building out my skills, and I'll be applying these to the projects above as I go:
+ 
+- **AI engineering:** LLM APIs and tool use, embeddings, vector databases (pgvector, Qdrant), RAG (chunking, hybrid search, reranking).
+- **C++ fundamentals:** memory management, RAII, and the STL
 ---
 
 ## 📊 GitHub Stats
@@ -151,8 +141,9 @@ Actively adding the operational layer that turns a running app into one you can 
 
 ## 🤝 Connect
 
+I'm always happy to chat, whether it's about a project, feedback on something I've built, or a possible collaboration.
+
 📧 alex.vesely07@gmail.com
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alexander-vesely-b23367325/)
-[![Fiverr](https://img.shields.io/badge/Fiverr-Hire%20me-1DBF73?logo=fiverr&logoColor=white)](https://www.fiverr.com/s/DB8GYbV)
 [![Discord](https://img.shields.io/badge/Discord-5865F2?logo=discord&logoColor=white)](https://discord.gg/hackblood)
